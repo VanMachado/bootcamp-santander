@@ -5,4 +5,5 @@
 Etapas concluídas até o momento:
 
 - Criação do repositório
+- Resumo de Introdução ao Git e GitHub
 
