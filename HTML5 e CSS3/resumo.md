@@ -14,3 +14,8 @@
 - **< aside >** - representado um conteúdo relacionado ao conteúdo principal da página, representado por uma barra lateral
 - **< footer >** - o rodapé.
 - **< h1 > à < h6 >** -  normatização de títulos
+
+#### Tags
+
+- **< p > < /p >** - serve para referenciar o conteúdo do artigo, podendo conter imagens, código, vídeos e outros conteúdos.
+- **< a > < /a>** - é uma âncora, com duas nomenclaturas, **"href"** e **"target"**, sendo o **href** um hyperlink que aponta para emails, telefones, um site entre outros. Já o **target** ele indica como nosso link vai ser aberto.
