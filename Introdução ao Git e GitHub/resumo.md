@@ -38,4 +38,6 @@ Caso dê algum erro  na hora dos "pushs" e "pulls" voltar na aula  "Realizando a
 - **Git Init -** Inicia um repositório do git na  pasta selecionada     
 - **Git add /nomeDoArquivo.tipo -** Adiciona um  arquivo ao repositório     
 - **Git commit -m   "mensagem" -** Adiciona um comentário ao repositório    
-- **Git status -**  informa o status dos arquivos em relação aos  arquivos já adicionados        
+- **Git status -**  informa o status dos arquivos em relação aos  arquivos já adicionados 
+- **Git push origin 'master'** - atualiza o repositório remoto de acordo com o local
+- **Git pull** - atualiza o repositório local de acordo com o remoto
