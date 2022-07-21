@@ -40,3 +40,6 @@ No exercício exemplifiquei como usar alguns atributos de CSS. Segue algumas op�
 
 #### Estilizando elementos
 
+Utilizando a palavra reservada **border** podemos mudar a cor, o tamanho, estilo de cada lado individualmente. Ex.: **border-top-color** para mudar a cor apenas da borda superior.
+
+Podemos também passar 4 valores para alterar propriedades do elemento, seguindo a ordem, topo, direita, baixo e esquerda.
