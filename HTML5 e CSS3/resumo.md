@@ -1,4 +1,4 @@
-# HTML5 e CSS3
+# HTML5
 
 #### Estrutura básica
 
@@ -23,3 +23,20 @@
 - **< ul >** é um elemento do qual a ordem da lista não é importante.
 - **< ol >** já nesse, a ordem é importante e eles vem enumerados.
 - **< li >** - é um elemento dessa lista.
+
+
+
+# CSS3
+
+#### Estrutura básica
+
+É formado por seletores, dos quais possuem uma propriedade e um valor referente a um elemento de HTML. **ID** são representados por '#' e **classes** por '.'
+
+No exercício exemplifiquei como usar alguns atributos de CSS. Segue algumas opções de estilo:
+
+- **solid:** mostra uma borda simples e reta.
+- **dotted:** pontilhado.
+- **dashed:** faz um hachurado.
+
+#### Estilizando elementos
+
