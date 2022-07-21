@@ -43,3 +43,28 @@ No exercício exemplifiquei como usar alguns atributos de CSS. Segue algumas op�
 Utilizando a palavra reservada **border** podemos mudar a cor, o tamanho, estilo de cada lado individualmente. Ex.: **border-top-color** para mudar a cor apenas da borda superior.
 
 Podemos também passar 4 valores para alterar propriedades do elemento, seguindo a ordem, topo, direita, baixo e esquerda.
+
+#### Estilizando textos
+
+Com a palavra reservada **text** podemos alterar sua fonte, para maiúsculo, ou minúsculo, negrito entre outras. Ex.: text-transform: uppercase;
+
+#### Estilizando listas
+
+Existem várias maneiras de personalizar a lista com a palavra reservada **list** para modificar cor, marcador e estilo, por exemplo. Ex.: "list-style-type: circle;" para definir o marcador circular.
+
+#### Dimensão e alinhamento
+
+Uma maneira de centralizar imagens é usando o bloco de comando: 
+
+...	{
+
+​	display: block;
+
+​	margin: 0px auto;
+
+}
+
+
+
+
+
