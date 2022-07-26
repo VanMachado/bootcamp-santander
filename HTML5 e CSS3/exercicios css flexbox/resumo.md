@@ -25,6 +25,8 @@ Podemos incluir o elemento **< style >** no **< head >**, definindo as classes e
 
 - **Flex wrap** - Define se os itens devem ou não quebrar a linha. Por padrão, eles não quebram a linha, causando o vazamento dos itens em alguns casos.
 
-- **Flex flow** - funciona como um atalho para o **flex-direction** e **flex-row**.
+- **Flex flow** - funciona como um atalho para o **flex-direction** e **flex-row**. 
+
+- **Justify Content** - responsável por alinhar os itens dentro dos containers, de acordo com a direção estabelecida. Não se aplica a itens que ocupam 100% do container. Alguns de seus atributos são: **flex-start**, **flex-end**, **center**, **space-between** e **space-around**.
 
   
