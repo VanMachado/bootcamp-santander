@@ -5,8 +5,156 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos - Justify</title>
+    
+    <style>
+        .container {
+            max-width: 400px;
+            border: 1px solid black;        
+            margin: 0;
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .item {
+            background: #7d5b8c;
+            margin: 5px;
+            text-align: center;
+            color: white;            
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .flex-end {
+            justify-content: flex-end;
+        }
+
+        .center {
+            justify-content: center;
+        }
+
+        .space-between{
+            justify-content: space-between;
+        }
+
+        .space-around {
+            justify-content: space-around;
+        }
+
+        .column {
+            flex-direction: column;
+            min-height: 200px;
+        }
+
+        .text {
+            font-size: 20px;            
+            color: #7d5b8c;
+            font-style: italic;
+            text-transform: capitalize;            
+        }
+
+        .title {            
+            color: #7d5b8c;
+            font-style: italic;            
+            text-transform: capitalize; 
+        }
+    </style>
 </head>
 <body>
+    <h1 class="title">Row</h1>
+    <p class="text">flex-start</p>
+
+    <section class="container flex-start">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+
+    <p class="text">flex-end</p>
+
+    <section class="container flex-end">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+
+    <p class="text">center</p>
     
+    <section class="container center">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <p class="text">space-between</p>
+    
+    <section class="container space-between">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <p class="text">space-around</p>
+    
+    <section class="container space-around">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <h1 class="title">Column</h1>
+    
+    <p class="text">flex-start (coluna)</p>
+
+    <section class="container flex-start column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+
+    <p class="text">flex-end (coluna) </p>
+
+    <section class="container flex-end column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+
+    <p class="text">center (coluna)</p>
+    
+    <section class="container center column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <p class="text">space-between (coluna)</p>
+    
+    <section class="container space-between column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <p class="text">space-around (coluna)</p>
+    
+    <section class="container space-around column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
 </body>
 </html>
