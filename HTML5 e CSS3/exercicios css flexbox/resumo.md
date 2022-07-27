@@ -29,4 +29,11 @@ Podemos incluir o elemento **< style >** no **< head >**, definindo as classes e
 
 - **Justify Content** - responsável por alinhar os itens dentro dos containers, de acordo com a direção estabelecida. Não se aplica a itens que ocupam 100% do container. Alguns de seus atributos são: **flex-start**, **flex-end**, **center**, **space-between** e **space-around**.
 
+- **Align  items** -  trata do alinhamento dos flex itens de acordo com o eixo do container, sendo diferente para alinhamentos verticais e horizontais. Algum de seus atributos: **center**, **stretch**, **flex-start**, **flex-end** e **basline**.
+
+- **Align content** - trata da organização do eixo vertical dos containers. Tem as mesmas propriedades do **justify content e align items** aplicada a seu contexto.
+
   
+
+## 
+
