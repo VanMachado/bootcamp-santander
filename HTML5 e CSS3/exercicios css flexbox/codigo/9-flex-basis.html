@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex basis</title>
+
+    <style>
+        .container {
+            max-width: 500px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item {
+            background-color: #7d5b8c;
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+            color: white;
+        }
+
+        .bauto {
+            flex-basis: auto;
+        }
+
+        .b-0 {
+            flex-basis: 0;
+        }
+
+        .w100 {
+            flex-basis: 100px;
+        }
+
+        .fg-0 {
+            flex-grow: 0;
+        }
+
+        .fg-1 {
+            flex-grow: 1;
+        }
+
+        .fg-2 {
+            flex-grow: 2;
+        }
+
+        .text {
+            font-size: 20px;            
+            color: #7d5b8c;            
+            font-style: italic;
+            text-transform: capitalize;            
+        }
+
+        .title {            
+            color: #7d5b8c;            
+            font-style: italic;            
+            text-transform: capitalize; 
+        }
+    </style>
+</head>
+<body>
+    <p class="text">auto</p>
+
+    <div class="container">
+        <div class="item bauto fg-1">A</div>
+        <div class="item bauto fg-1">BBB</div>
+        <div class="item bauto fg-1">C</div>
+        <div class="item bauto fg-2">DEF</div>        
+    </div>
+
+    <p class="text">Zero</p>
+
+    <div class="container">
+        <div class="item b-0 fg-1">AAAAAAAAAAA</div>
+        <div class="item b-0 fg-1">BBB</div>
+        <div class="item b-0 fg-1">C</div>
+        <div class="item b-0 fg-1">DEF</div>        
+    </div>
+
+    <p class="text">basis + width</p>
+
+    <div class="container">
+        <div class="item w100 fg-2">AA</div>
+        <div class="item w100 fg-2">BBB</div>
+        <div class="item w100 fg-2">C</div>
+        <div class="item w100 fg-2">DEF</div>        
+    </div>
+</body>
+</html>

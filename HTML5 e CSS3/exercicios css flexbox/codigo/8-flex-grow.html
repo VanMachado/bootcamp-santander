@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex grow</title>
+
+    <style>
+        .container {
+            max-width: 300px;            
+            display: flex;
+            border: 2px solid black;
+            margin-bottom: 20px;
+        }
+
+        .item {
+            background-color: #7d5b8c;
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        .flex-0{
+            flex-grow: 0;
+        }
+
+        .flex-1{
+            flex-grow: 1;
+        }
+
+        .flex-2{
+            flex-grow: 2;
+        }
+
+        .flex-3{
+            flex-grow: 3;
+        }
+
+        .text {
+            font-size: 20px;            
+            color: #7d5b8c;            
+            font-style: italic;
+            text-transform: capitalize;            
+        }
+
+        .title {            
+            color: #7d5b8c;            
+            font-style: italic;            
+            text-transform: capitalize; 
+        }
+    </style>
+</head>
+<body>
+    <P class="text">flex-grow-0</P>
+
+    <div class="container">
+        <div class="item flex-0">A</div>
+        <div class="item flex-0">B</div>
+        <div class="item flex-0">C</div>
+        <div class="item flex-0">D</div>
+    </div>
+
+    <P class="text">flex-grow-1</P>
+
+    <div class="container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-1">B</div>
+        <div class="item flex-1">C</div>
+        <div class="item flex-1">D</div>
+    </div>
+
+    <P class="text">flex-grow alternados</P>
+
+    <div class="container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-2">B</div>
+        <div class="item flex-2">C</div>
+        <div class="item flex-1">D</div>
+    </div>
+
+    <P class="text">flex-grow-2</P>
+
+    <div class="container">
+        <div class="item flex-2">A</div>
+        <div class="item flex-2">B</div>
+        <div class="item flex-2">C</div>
+        <div class="item flex-2">D</div>
+    </div>
+
+    <P class="text">flex-grow-2 conteudos distintos</P>
+
+    <div class="container">
+        <div class="item flex-2">AAAAA</div>
+        <div class="item flex-2">BBB</div>
+        <div class="item flex-2">C</div>
+        <div class="item flex-2">D</div>
+    </div>
+
+    <P class="text">flex-grow-3</P>
+
+    <div class="container">
+        <div class="item flex-3">A</div>
+        <div class="item flex-3">B</div>
+        <div class="item flex-3">C</div>
+        <div class="item flex-3">D</div>
+    </div>
+</body>
+</html>
