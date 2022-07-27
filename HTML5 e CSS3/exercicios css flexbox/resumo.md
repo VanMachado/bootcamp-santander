@@ -35,5 +35,12 @@ Podemos incluir o elemento **< style >** no **< head >**, definindo as classes e
 
   
 
-## 
+#### Propriedade dos flex items
+
+- **Flex grow** - define a proporcionalidade de crescimento dos itens, respeitando o tamanho dos seus conteúdos internos. Não funciona se adicionarmos o **justify-content**.
+- **Flex basis** - estabelece o tamanho inicial do item antes da distribuição de espaço, levando em consideração o conteúdo interno disposto. Recebe alguns valores como: **auto**, **px**, **%**, **0** entre outros.
+- **Flex shrink** - estabelece a capacidade de compressão de item.
+- **Flex** - é um atalho para as propriedades **grow**, **shrink** e **basis**. Podemos setar valores para esses atributos respeitando a ordem de passagem de parâmetro dos mesmos. Ex.: **flex: 1; -> grow = 1, shrink = 1, basis = 0.**
+- **Order** -  uma maneira de listar os itens que vamos adicionando.
+- **Align self** - governa o alinhamento de modo individual sobre um determinado item. Usa os mesmos atributos **justify content**.
 
