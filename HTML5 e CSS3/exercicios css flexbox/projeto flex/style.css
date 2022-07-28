@@ -1,0 +1,326 @@
+/*Zera os limites dos elementos. Possibilitou o header ocupar todo o cabecalho*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Responsavel pela responsividade da pagina*/
+div img {
+    display: block;
+    width: 100%;
+}
+
+ul {
+    list-style: none;    
+    margin: 0;
+    padding: 0;    
+}
+
+/*Responsavel pela cor das ancoras*/
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    background-color: #122A57;
+    height: 100px;    
+    display: flex;
+    align-items: center;
+}
+
+/*Organiza o cabecalho*/
+header .list-items {
+    display: flex;
+    max-width: 260px;    
+    width: 100%;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+/*Responsavel por dar o espaçamen to entre o titulo do site e "quem somos servicos planos"*/
+header .menu {
+    justify-content: space-between;
+    color: #fff;
+}
+
+footer {
+    background-color: #122A57;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer {
+    justify-content: space-between;
+    color: #fff;    
+}
+
+/*dimensiona todos os flex containers que tiverem essa tag*/
+.container {
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;    
+}
+
+/*Responsavel pela organizacao e centralizacao das imagens*/
+.apresentacao {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao .texto-apresentacao {
+    min-height: 200px;    
+}
+
+.texto-apresentacao h1 {
+    color: #122A57;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.texto-apresentacao p {
+   display: flex;
+   justify-content: center;   
+}
+
+/*Configura a utilizacao de botoes que se repetem. "Saiba mais!" no caso*/
+.btn {    
+    background-color: #122A57;
+    color: #fff;
+    text-align: center;    
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    text-decoration: none;    
+    height: 50px;    
+    line-height: 50px;
+    margin: 10px 0 10px 0;
+}
+
+#quem-somos {
+    flex-direction: row-reverse;    
+    align-items: center;
+    justify-content: space-between;
+    display: flex;    
+}
+
+#quem-somos h2 {
+    color: #122A57;
+    font-size: 32px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/*Cria um pseudoelemento que fica responsavel pela marcacao*/
+#quem-somos h2::before {
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #122A57;
+    position: relative;
+}
+
+#quem-somos p {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+#quem-somos img {
+    min-width: 420px;
+}
+
+/*Responsavel pelo container dos serviços*/
+.container-externo {
+    background-color: #122A57;
+    width: 100%;    
+}
+
+/*Responsavel por organizar os icones na parte de baixo*/
+#servicos {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#servicos h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;    
+}
+
+/*organiza os links*/
+.item-servico a {    
+        width: 220px;
+        background-color: #fff;
+        border-radius: 30px;
+        height: 50px;
+        text-align: center;     
+        line-height: 50px;        
+        margin-top: 20px;   
+        text-decoration: none;
+        padding: 5px 10px;
+        color: #122A57;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    #servicos p {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+        margin-top: 20px;
+    }
+
+/*Espacamento entre as imagens*/    
+.lista-servicos {
+    display: flex;  
+    justify-content: space-between;  
+}
+
+/*O alinhamnto dos botoes da aba servico*/
+.lista-servicos .item-servico {
+    text-align: center;
+}
+
+.item-servico img {
+    width: 80%;
+    margin: auto;
+}
+
+#planos {
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+#planos h2 {
+    font-size: 32px;
+}
+
+/*Alinhamento dos containers dos planos*/
+.lista-planos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;  
+}
+
+/*Organização das boxes*/
+.lista-planos h3 {
+    text-align: center;
+    margin-top: 10px;   
+    padding: 10px;
+}
+
+/*Titulo de cada box*/
+.item-planos h3 {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/*Responsavel pela box dos planos*/
+.item-planos {
+    flex: 1;   
+    border: 5px solid #122A57;
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 240px;
+    margin-bottom: 20px;
+}
+
+/*Customizacao do botao especificamente da aba "Planos"*/
+.item-planos .btn {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/*Responsavel pela linha divisoria entre os planos e os itens*/
+.item-planos h3::after {
+    content: "";   
+    height: 3px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #122A57;
+    position: relative;
+}
+
+/*Organiza os itens das listas*/
+.item-planos ul {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+/*Responsavel pela organizacao da lista*/
+.item-planos ul li {
+    display: flex;  
+    flex-wrap: nowrap;    
+    align-items: center; /*centraliza em relação aos outros itens*/
+}
+
+/* Responsavel pela linha entre o Plano e a descricao*/
+.item-planos ul li::before{
+    content: "";
+    background-color: #122A57;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    position: relative;
+}
+
+/* Mobile */
+
+@media(max-width: 992px) {
+    .container {
+        flex-direction: column;
+    }
+    .apresentacao .texto-apresentacao {
+        width: 100%;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+
+    #quem-somos {
+        flex-direction: column-reverse;
+    }
+
+    #quem-somos img {
+        min-width: 320px;
+        margin: auto;
+    }
+
+    .lista-servicos {
+        flex-direction: column;
+    }
+
+    .item-servico img {
+        width: 50%;
+        margin: auto;
+    }
+
+    .lista-planos {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    
+    .lista-planos {
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+    }    
+}
