@@ -41,3 +41,4 @@ Caso dê algum erro  na hora dos "pushs" e "pulls" voltar na aula  "Realizando a
 - **Git status -**  informa o status dos arquivos em relação aos  arquivos já adicionados 
 - **Git push origin 'master'** - atualiza o repositório remoto de acordo com o local
 - **Git pull** - atualiza o repositório local de acordo com o remoto
+- **Git remote add origin "url do repositório"** - adiciona o endereço para o qual o repositório local aponta.
