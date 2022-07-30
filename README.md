@@ -12,3 +12,5 @@ Etapas concluídas até o momento:
 - HTML5 e CSS3
 
 - Recriação da página inicial do Instagram com algumas customizações
+
+- Introdução a JavaScript
