@@ -1,5 +1,8 @@
 "use strict";
-// O código abaixo tem alguns erros e não funciona como deveria. Você pode identificar quais são e corrigi-los em um arquivo TS?
+//DICA: Quando quiser trabalhar com elementos que so recebem string, como o caso de um 'SPAM'
+//em vez de transforma a string em numero, com o parseInt(), ou parseFloat()
+//crie uma variável com o tipo desejado e após fazer as chamadas de funções
+//transforme ela com o toString() para incormporar no innerHTML!!!
 let botaoAtualizar = document.getElementById('atualizar-saldo');
 let botaoLimpar = document.getElementById('limpar-saldo');
 let soma = document.getElementById('soma');
